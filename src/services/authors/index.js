@@ -66,7 +66,7 @@ authorsRouter.put("/:id", (req, res) => {
   const fileAsString = fileAsBuffer.toString();
   let fileAsJSONArray = JSON.parse(fileAsString);
 
-  const authorIndex = fileAsJSONArray.findIndex((author) => author.id === req.params.id);
+  const authorIndex = fileAsJSONArray.findIndex(author => author.id === req.params.id);
   if (!authorIndex == -1) {
     res
       .status(404)
@@ -77,7 +77,7 @@ authorsRouter.put("/:id", (req, res) => {
   fileAsJSONArray[authorIndex] = changedAuthor
    fs.writeFileSync(authorsFilePath, JSON.stringify(fileAsJSONArray));
    res.send(changedAuthor)
-  res.send("hello im the update author end");
+  
 });
 
 // delete delete  http://localhost:3001/authors/:id
