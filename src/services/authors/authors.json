@@ -1,0 +1,42 @@
+[
+  {
+    "id": "76yfc15qckq9iyst5",
+    "name": "Janusz",
+    "surname": "Kondziarz",
+    "email": "jasko255@gmail.com",
+    "dateOfBirth": "11/05/1991",
+    "avatar": "https://ui-avatars.com/api/?name=Janusz+Kondziarz",
+    "createdAt": "2021-06-23T13:41:14.968Z",
+    "updatedAt": "2021-06-23T13:41:14.968Z"
+  },
+  {
+    "id": "76yfc1fd0kq9j0d36",
+    "name": "Kla",
+    "surname": "Bla",
+    "email": "hjhgf@gmail.com",
+    "dateOfBirth": "11/05/1999",
+    "avatar": "https://ui-avatars.com/api/?name=Kla+Bla",
+    "createdAt": "2021-06-23T13:42:27.905Z",
+    "updatedAt": "2021-06-23T13:42:27.905Z"
+  },
+  {
+    "id": "76yfc1bwkkq9jz1zy",
+    "name": "Kdrtyla",
+    "surname": "Blrehggra",
+    "email": "hjhgrgref@gmail.com",
+    "dateOfBirth": "11/05/1799",
+    "avatar": "https://ui-avatars.com/api/?name=Kdrtyla+Blrehggra",
+    "createdAt": "2021-06-23T14:09:26.493Z",
+    "updatedAt": "2021-06-23T14:09:26.493Z"
+  },
+  {
+    "id": "76yfc16gwkq9jzevg",
+    "name": "Kdrweweeefeftyla",
+    "surname": "lkjhgfhggra",
+    "email": "poiuyref@gmail.com",
+    "dateOfBirth": "11/05/1899",
+    "avatar": "https://ui-avatars.com/api/?name=Kdrweweeefeftyla+lkjhgfhggra",
+    "createdAt": "2021-06-23T14:09:43.179Z",
+    "updatedAt": "2021-06-23T14:09:43.179Z"
+  }
+]
