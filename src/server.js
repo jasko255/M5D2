@@ -12,15 +12,15 @@ const PORT = process.env.PORT || 3001
 
 const whitelist = [process.env.FRONTEND_URL, process.env.FRONTEND_PROD_URL]
 
-server.use(cors())
-//     {origin: function(origin, callback){
-//     if(!origin || whitelist.indexOf(origin) !== -1){
-//         callback(null, true)
-//     }
-//     else{ callback(new Error('Not allowed by cors!'))
+server.use(cors(
+    {origin: function(origin, callback){
+    if(!origin || whitelist.indexOf(origin) !== -1){
+        callback(null, true)
+    }
+    else{ callback(new Error('Not allowed by cors!'))
 
-//     }
-// }}))
+    }
+}}))
 
 // ENDPOINTS
 
