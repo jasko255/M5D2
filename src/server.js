@@ -22,7 +22,7 @@ server.use(cors(
     }
 }}))
 
-// ENDPOINTS
+//***********************************8 */ ENDPOINTS
 
 server.use("/authors", authorsRouter)
 server.use('/blogPosts', postsRouter)
